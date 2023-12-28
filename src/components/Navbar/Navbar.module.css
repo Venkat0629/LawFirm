@@ -1,0 +1,8 @@
+.navbar {
+  height: 47px;
+  padding: 53px 153px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
