@@ -4,15 +4,17 @@ import Button from "./Button/Button";
 import Logo from "./Logo/Logo";
 import FirmLogo from "../../assets/logo.svg";
 import Navigations from "./Navigations/Navigations";
+import { Link } from "react-router-dom";
+import Share from "./Share/Share";
 
-export default function NavBar() {
+export default function NavBar({ props }) {
   return (
     <div className={styles.navbar}>
-      <a href="/">
+      <Link to="/">
         <Logo props={FirmLogo} />
-      </a>
+      </Link>
       <Navigations />
-      <Button>Contact Now</Button>
+      {props ? <Share /> : <Button>Contact Now</Button>}
     </div>
   );
 }

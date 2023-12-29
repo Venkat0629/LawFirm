@@ -4,4 +4,17 @@
   gap: 10px;
   height: 26px;
   width: 30vw;
+  color: var(--color-white);
+}
+
+.navigations .text {
+  text-decoration: none;
+  color: var(--color-white);
+  transition: color 0.2s ease;
+}
+.navigations .text:hover {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  transform: scale(1.1);
+
 }

@@ -1,12 +1,15 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./components/Hero/HeroSection";
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+// import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
     <>
-      <Navbar />
-      <HeroSection />
+      <NavBar />
+  
+      <Footer />
     </>
   );
 }
