@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 53px 153px;
+  color: var(--color-white);
+  text-wrap: wrap;
+}
+.content {
+  width: 571px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 70px 0px;
+}
+.title {
+  height: 194px;
+  font-size: 66px;
+  font-weight: 500;
+}
+.subtitle {
+  opacity: 30%;
+}
+.heroimage {
+  width: 467px;
+  height: 544px;
+}
+.wrapper .emailwrapper {
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 10%);
+}
+.wrapper .emailwrapper .inputwrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-white);
+  margin-left: 10px;
+}
+.wrapper .emailwrapper .inputwrapper .input {
+  color: rgba(255, 255, 255, 20%);
+  font-size: 16px;
+  background-color: inherit;
+  border: none;
+}
+
+.wrapper .emailwrapper .inputwrapper .input:focus {
+  border: 1px solid var(--color-primary);
+}
+.wrapper .emailwrapper .inputwrapper .icon {
+  opacity: 20%;
+}
+.wrapper .emailwrapper .chip {
+  width: 137px;
+  height: 62px;
+  border-radius: 43px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}
