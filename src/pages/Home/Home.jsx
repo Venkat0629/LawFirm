@@ -1,6 +1,12 @@
 import React from "react";
-import HeroSection from "../../components/Hero/HeroSection";
+import Hero from "../../components/Hero/Hero";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
-  return <HeroSection />;
+  return (
+    <>
+      <Hero />
+      <Footer />
+    </>
+  );
 }

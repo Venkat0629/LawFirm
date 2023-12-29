@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./HeroSection.module.css";
+import styles from "./Hero.module.css";
 import { useState } from "react";
 import { ReactComponent as Hero } from "../../assets/Hero.svg";
 import { Chip } from "@mui/material";
