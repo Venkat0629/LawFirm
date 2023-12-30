@@ -21,9 +21,10 @@ export default function HeroSection() {
           You don’t have to <strong>Fight them Alone.</strong>
         </h1>
         <p className={styles.subtitle}>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
-          curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
-          hac massa gravida arcu interdum proin curae.
+          No man is above the law and no man is below it: nor do we ask any
+          man's permission when we ask him to obey it. It is not wisdom but
+          Authority that makes a law. At his best, man is the noblest of all
+          animals; separated from law and justice he is the worst.
         </p>
 
         <div className={styles.emailwrapper}>
