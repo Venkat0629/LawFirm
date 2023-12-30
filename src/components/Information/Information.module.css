@@ -1,0 +1,99 @@
+.wrapper {
+  text-wrap: wrap;
+  text-align: left;
+  padding: 40px 0px;
+  background-color: var(--color-grey);
+}
+.header {
+  height: 174px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  margin: 0px 100px;
+}
+.title {
+  width: 380px;
+  height: 174px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.titlewrapper {
+  width: 470px;
+  height: 155px;
+}
+.subtitle {
+  width: 249px;
+  height: 52px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.text {
+  width: 475px;
+  height: 87px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.section {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+  font-weight: 600;
+}
+.section .nowrap {
+  text-wrap: nowrap;
+}
+.sectiontitle {
+  width: 437px;
+  height: 77px;
+  font-size: 50px;
+}
+.cardwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 345px;
+  height: 377px;
+  border: 1.4px solid var(--color-gray);
+  border-radius: 14px;
+  padding: 14px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+.card:hover {
+  background-color: var(--color-gray);
+  cursor: pointer;
+}
+
+.cardicon {
+  width: 100px;
+  height: 100px;
+}
+.card .cardtitle {
+  font-size: 20px;
+}
+.cardtext {
+  width: 295px;
+  opacity: 30%;
+  font-size: 12px;
+  font-weight: 500;
+}
+.card .chip {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}
+.card .chip:hover {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
