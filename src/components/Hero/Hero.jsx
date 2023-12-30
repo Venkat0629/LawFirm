@@ -21,10 +21,11 @@ export default function HeroSection() {
           You don’t have to <strong>Fight them Alone.</strong>
         </h1>
         <p className={styles.subtitle}>
-          No man is above the law and no man is below it: nor do we ask any
-          man's permission when we ask him to obey it. It is not wisdom but
-          Authority that makes a law. At his best, man is the noblest of all
-          animals; separated from law and justice he is the worst.
+          At <strong>IG STUDIO</strong>, we're your dedicated ally, providing
+          unwavering support for confident navigation of legal challenges. We
+          stand as the strength in your corner, fighting passionately for your
+          rights and the best possible outcomes. Your victory is our mission —
+          let's overcome legal hurdles together.
         </p>
 
         <div className={styles.emailwrapper}>

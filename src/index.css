@@ -4,6 +4,8 @@
   --color-black: #121212;
   --color-white: #ffffff;
   --color-grey: #1d1d1d;
+  --color-gray: rgb(255, 255, 255, 0.1);
+  --color-border: #6a6a6a;
 }
 *,
 *::before,

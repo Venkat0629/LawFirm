@@ -15,21 +15,37 @@ export default function Attorney() {
         <div className={styles.titlewrapper}>
           <h3 className={styles.subtitle}>Criminal Lawyer</h3>
           <p className={styles.text}>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequatduis enim velit mollit Exercitation.
+            Our team consist of seasoned legal professionals with over 15 years
+            of experience in Criminal Law and graduates of Harvard Law School,
+            comprehensive understanding of the law with a track record of
+            successful case resolutions.
           </p>
         </div>
       </div>
 
       <div className={styles.section}>
-        <h1 className={styles.title}>Why Choose us?</h1>
+        <h1 className={`${styles.title} ${styles.nowrap}`}>Why Choose us?</h1>
         <div className={styles.cardwrapper}>
           <div className={styles.card}>
             <CardIcon className={styles.cardicon} />
-            <h3>98% Success Rate</h3>
+            <h4 className={styles.cardtitle}>98% Success Rate</h4>
             <p className={styles.cardtext}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
+              Your success is our priority, backed by a perfect track record,
+              making us your trusted partner for legal matters.
+            </p>
+            <Chip
+              label="Read More"
+              onClick={handleChipClick}
+              className={styles.chip}
+            />
+          </div>
+          <div className={`${styles.card} ${styles.middle}`}>
+            <CardIcon className={styles.cardicon} />
+            <h4 className={styles.cardtitle}>100% Success Rate</h4>
+            <p className={styles.cardtext}>
+              Count on us for a 100% success rate, ensuring reliable legal
+              representation and unwavering dedication to securing favorable
+              outcomes.
             </p>
             <Chip
               label="Read More"
@@ -39,23 +55,11 @@ export default function Attorney() {
           </div>
           <div className={styles.card}>
             <CardIcon className={styles.cardicon} />
-            <h3>100% Success Rate</h3>
+            <h4 className={styles.cardtitle}>98% Success Rate</h4>
             <p className={styles.cardtext}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </p>
-            <Chip
-              label="Read More"
-              onClick={handleChipClick}
-              className={styles.chip}
-            />
-          </div>
-          <div className={styles.card}>
-            <CardIcon className={styles.cardicon} />
-            <h3>98% Success Rate</h3>
-            <p className={styles.cardtext}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
+              Choose us for a history of success. Our 98% success rate reflects
+              unwavering commitment to achieving favorable results in every
+              case.
             </p>
             <Chip
               label="Read More"
