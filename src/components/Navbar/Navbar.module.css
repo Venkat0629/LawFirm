@@ -1,8 +1,8 @@
 .navbar {
   height: 47px;
-  padding: 53px 153px;
+  padding: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
 }

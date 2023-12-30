@@ -1,10 +1,6 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
+import Information from "../About/About";
 
 export default function About() {
-  return (
-    <>
-      <Footer />
-    </>
-  );
+  return <Information />;
 }

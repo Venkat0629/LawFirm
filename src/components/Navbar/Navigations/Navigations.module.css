@@ -1,7 +1,7 @@
 .navigations {
+  /* width: 431px; */
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   height: 26px;
   width: 30vw;
   color: var(--color-white);
