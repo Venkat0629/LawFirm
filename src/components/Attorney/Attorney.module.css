@@ -1,0 +1,97 @@
+.wrapper {
+  text-wrap: wrap;
+  text-align: left;
+  padding: 16px 0px;
+  margin: 0px 150px;
+}
+.header {
+  width: 1132px;
+  height: 174px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  width: 387px;
+  height: 174px;
+  font-size: 54px;
+  font-weight: 600;
+}
+.separater {
+  position: absolute;
+  left: 50vw;
+  border: 1px solid #6a6a6a;
+  height: 206px;
+  transform: rotate(180deg);
+}
+.titlewrapper {
+  width: 475px;
+  height: 155px;
+}
+.subtitle {
+  width: 249px;
+  height: 52px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.text {
+  width: 475px;
+  height: 87px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.section {
+  width: 1139px;
+  height: 551px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px 150px;
+}
+.sectiontitle {
+  width: 437px;
+  height: 77px;
+  font-size: 54px;
+  font-weight: 600;
+}
+.cardwrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.card {
+  width: 359px;
+  height: 377px;
+  border: 1.4px solid rgb(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+.cardwrapper .card .middle {
+  background-color: rgb(255, 255, 255, 0.1) !important;
+}
+
+.cardicon {
+  width: 101px;
+  height: 101px;
+}
+
+.cardtext {
+  width: 293px;
+  height: 69px;
+  opacity: 30%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card .chip {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}
