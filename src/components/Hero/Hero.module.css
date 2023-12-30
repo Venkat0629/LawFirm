@@ -1,7 +1,8 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 53px 153px;
+  gap: 95px;
+  padding: 40px 100px;
   color: var(--color-white);
   text-wrap: wrap;
 }
@@ -9,12 +10,13 @@
   width: 571px;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   justify-content: space-between;
   padding: 70px 0px 20px 0px;
 }
 .title {
   height: 194px;
-  font-size: 66px;
+  font-size: 60px;
   font-weight: 500;
 }
 .subtitle {
