@@ -9,16 +9,16 @@ import { Link } from "react-router-dom";
 export default function Share() {
   return (
     <div className={styles.share}>
-      <Link to="/">
+      <Link to="https://www.instagram.com">
         <Instagram />
       </Link>
-      <Link to="/">
+      <Link to="https://www.facebook.com">
         <Facebook />
       </Link>
-      <Link to="/">
+      <Link to="https://twitter.com">
         <Twitter />
       </Link>
-      <Link to="/">
+      <Link to="https://in.pinterest.com">
         <Pinterest />
       </Link>
     </div>

@@ -39,7 +39,7 @@ export default function Attorney() {
               className={styles.chip}
             />
           </div>
-          <div className={`${styles.card} ${styles.middle}`}>
+          <div className={styles.card}>
             <CardIcon className={styles.cardicon} />
             <h4 className={styles.cardtitle}>100% Success Rate</h4>
             <p className={styles.cardtext}>

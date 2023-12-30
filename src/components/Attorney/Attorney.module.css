@@ -73,8 +73,9 @@
   justify-content: space-around;
   align-items: left;
 }
-.middle {
+.card:hover {
   background-color: var(--color-gray);
+  cursor: pointer;
 }
 
 .cardicon {
@@ -99,4 +100,5 @@
 }
 .card .chip:hover {
   color: var(--color-white);
+  background-color: var(--color-black);
 }
