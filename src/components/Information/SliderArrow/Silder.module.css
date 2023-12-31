@@ -1,0 +1,13 @@
+.arrow {
+  color: var(--color-black);
+  cursor: pointer;
+}
+.left {
+  position: relative;
+  top: -5%;
+  transform: rotate(180deg);
+}
+.arrow .icon {
+  font-size: 40px;
+  font-weight: lighter;
+}

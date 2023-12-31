@@ -1,0 +1,36 @@
+.card {
+  width: 350px;
+  height: 360px;
+  border: 1.4px solid var(--color-gray);
+  border-radius: 14px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+.card:hover {
+  background-color: var(--color-gray);
+  cursor: pointer;
+}
+
+.cardicon {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cardtitle {
+  font-size: 20px;
+}
+.subtitle {
+  height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.cardtext {
+  width: 295px;
+  opacity: 30%;
+  font-size: 12px;
+  font-weight: 500;
+}
