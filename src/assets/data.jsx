@@ -7,7 +7,7 @@ export const data = [
     message:
       "Exceptional legal expertise! Your attorney navigated our complex case with precision and dedication, securing a favorable outcome. Trustworthy and highly recommended.",
     image:
-      "https://images.unsplash.com/photo-1528892952291-009c663ce843?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/1300972574/photo/millennial-male-team-leader-organize-virtual-workshop-with-employees-online.jpg?s=2048x2048&w=is&k=20&c=tU5X1sJJ9sIcqthiw5RO388RhKNllo0ZF82LPitfXgU=",
   },
 
   {
@@ -74,29 +74,29 @@ export const data = [
   },
   {
     id: 8,
-    firstname: "Kiara Mishra",
+    name: "Kren Mady",
     company: "Alfa",
-    email: "mishraK@gmail.com",
+    email: "madyK@gmail.com",
     message:
       "An ally in the legal arena. IG STUDIO provided invaluable support during a tough legal battle. Their dedication and strategic approach made all the difference.",
     image:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/1418192941/photo/portrait-of-happy-handsome-millennial-african-american-employee.jpg?s=2048x2048&w=is&k=20&c=nfP1i_oAYUrC5guZZLK55kldbQrq3Tmf22U3eRy8U74=",
   },
   {
     id: 9,
     name: "Rufi Sandy",
-    company: "Rudi",
-    email: "rufi@gmail.com",
+    company: "Rubi",
+    email: "sandyR@gmail.com",
     message:
       "Legal prowess with a personal touch. Franics demonstrated exceptional expertise while making us feel like more than just clients. Truly a standout law firm.",
     image:
-      "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/1253833559/photo/smiling-business-man-looking-camera-webcam-making-conference-video-call.jpg?s=2048x2048&w=is&k=20&c=W2OKEJRRvH7eT8aobZd4VgoH5aftc808fRJqe4J4gTo=",
   },
   {
     id: 10,
     name: "Kelvin Swin",
     company: "Sparkle",
-    email: "kelvinS@gmail.com",
+    email: "swinK@gmail.com",
     message:
       "Exemplary service from start to finish. IG STUDIO delivered exceptional results and demonstrated unwavering dedication. Highly recommend their services for any legal needs.",
     image:

@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Information.module.css";
+import React, { useState } from "react";
+import styles from "./About.module.css";
+import Card from "./Card/Card";
+import Team from "./Team/Team";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Slider from "./SliderArrow/Slider";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
-import { data } from "./data";
-import Card from "./Card/Card";
+import { data } from "../../assets/data";
 
 export default function Information() {
   const [swiper, setSwiper] = useState(null);
@@ -14,18 +15,28 @@ export default function Information() {
 
   const handleSwiper = (swiperInstance) => {
     setSwiper(swiperInstance);
-  };
-
-  useEffect(() => {
     if (swiper) {
-      swiper.on("slideChange", () => {
+      swiperInstance.on("slideChange", () => {
         setIsBeginning(swiper.isBeginning);
       });
-      swiper.on("slideChange", () => {
+      swiperInstance.on("slideChange", () => {
         setIsEnd(swiper.isEnd);
       });
     }
-  }, [swiper]);
+    console.log(swiper);
+  };
+
+  // useEffect(() => {
+  //   if (swiper) {
+  //     console.log(swiper);
+  //     swiper.on("slideChange", () => {
+  //       setIsBeginning(swiper.isBeginning);
+  //     });
+  //     swiper.on("slideChange", () => {
+  //       setIsEnd(swiper.isEnd);
+  //     });
+  //   }
+  // }, [swiper]);
 
   return (
     <div className={styles.wrapper}>
@@ -53,11 +64,18 @@ export default function Information() {
         allowTouchMove
         className={styles.swiperwrapper}
         onSwiper={handleSwiper}
+        onSlideChange={() => console.log("slide change")}
       >
         {data.map((card) => (
           <SwiperSlide key={card.id}>{<Card cardData={card} />}</SwiperSlide>
         ))}
       </Swiper>
+      <div className={styles.teamwrapper}>
+        <h1 className={styles.title}>Our Team</h1>
+        <div className={styles.members}>
+          <Team className={styles.teamwrapper} />
+        </div>
+      </div>
     </div>
   );
 }

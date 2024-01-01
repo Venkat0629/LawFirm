@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Attorney.module.css";
+import styles from "./Attorneys.module.css";
 import { Chip } from "@mui/material";
 import { ReactComponent as CardIcon } from "../../assets/card.svg";
 
