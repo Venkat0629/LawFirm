@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "./Button.module.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Button({ children }) {
-  const handleButton = (e) => {};
+  const navigate = useNavigate();
+  const handleButton = (e) => {
+    navigate("/contact");
+  };
   return (
     <button className={styles.button} onClick={handleButton}>
       {children}

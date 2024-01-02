@@ -1,0 +1,77 @@
+.wrapper {
+  margin: 0px 100px;
+}
+.heading {
+  font-size: 50px;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+
+.accordionwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  width: 350px;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.accordion {
+  width: 540px;
+}
+.letterwrapper {
+  margin: 100px 0px;
+  height: 356px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-gray);
+  font-family: Helvetica, sans-serif;
+
+  padding: 100px 0px;
+}
+.lettertitle {
+  font-size: 55px;
+  font-weight: 500;
+}
+.inputwrapper {
+  width: 686px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  width: 276px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+}
+.email {
+  width: 276px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.button {
+  width: 116px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover {
+  border: 1px solid var(--color-white);
+  background-color: var(--color-black);
+  color: var(--color-white);
+}

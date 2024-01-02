@@ -9,17 +9,17 @@ import sanfole from "../../../assets/team/sanfole.png";
 
 export default function Team() {
   const data = [
-    { name: "Danial Def", cases: 301, image: danial },
-    { name: "Sanfole", cases: 805, image: sanfole },
-    { name: "Cesforila", cases: 407, image: cesforila },
-    { name: "Colleen", cases: 180, image: colleen },
-    { name: "Haldone", cases: 212, image: haldone },
-    { name: "Nik Jeo", cases: 350, image: nik },
+    { id: 1, name: "Danial Def", cases: 301, image: danial },
+    { id: 2, name: "Sanfole", cases: 805, image: sanfole },
+    { id: 3, name: "Cesforila", cases: 407, image: cesforila },
+    { id: 4, name: "Colleen", cases: 180, image: colleen },
+    { id: 5, name: "Haldone", cases: 212, image: haldone },
+    { id: 6, name: "Nik Jeo", cases: 350, image: nik },
   ];
   return (
     <>
       {data.map((member) => (
-        <div className={styles.teammember}>
+        <div className={styles.teammember} key={member.id}>
           <img src={member.image} alt={member.name} />
           <div className={styles.content}>
             <h3 className={styles.title}>{member.name}</h3>

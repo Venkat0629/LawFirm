@@ -1,0 +1,20 @@
+div .accordain {
+  background-color: inherit;
+  color: var(--color-white);
+  border: none !important;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+.content {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.separater {
+  width: 100%;
+  opacity: 15%;
+  border: 2px solid var(--color-border);
+}
