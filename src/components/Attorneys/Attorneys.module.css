@@ -1,8 +1,6 @@
 .wrapper {
   text-wrap: wrap;
   text-align: left;
-  /* padding: 40px 0px; */
-  /* background-color: var(--color-grey); */
 }
 .header {
   height: 174px;
@@ -10,7 +8,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 200px;
-  margin: 0px 100px;
+  margin: 50px 100px;
 }
 .title {
   width: 380px;
