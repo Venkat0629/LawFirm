@@ -8,13 +8,13 @@ export default function NavBar() {
       <Link to="/" className={styles.text}>
         Home
       </Link>
-      <Link to="/attorneys" className={styles.text}>
+      <Link to="/" className={styles.text}>
         Attorneys
       </Link>
-      <Link to="/practices" className={styles.text}>
+      <Link to="/" className={styles.text}>
         Practice Areas
       </Link>
-      <Link to="/about" className={styles.text}>
+      <Link to="/" className={styles.text}>
         About Us
       </Link>
     </div>
