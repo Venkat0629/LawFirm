@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Navigations.module.css";
 import { Link } from "react-scroll";
 
-export default function NavBar() {
+export default function Navigations() {
   return (
     <div className={styles.navigations}>
       <Link to="home" smooth={true} duration={500} className={styles.text}>
