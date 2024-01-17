@@ -11,7 +11,7 @@ import Footer from "../../components/Footer/Footer";
 export default function Home() {
   return (
     <>
-      <NavBar className={styles.navbar} />
+      <NavBar />
       <div className={styles.wrapper}>
         <section id="home">
           <Hero className={styles.hero} />

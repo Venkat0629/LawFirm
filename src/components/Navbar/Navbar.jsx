@@ -9,7 +9,7 @@ import Share from "./Share/Share";
 
 export default function NavBar({ props }) {
   return (
-    <div className={styles.navbar}>
+    <div className={`${styles.navbar} ${!props && styles.fixed}`}>
       <Link to="/">
         <Logo props={FirmLogo} />
       </Link>
