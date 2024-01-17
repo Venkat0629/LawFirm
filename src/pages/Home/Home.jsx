@@ -4,14 +4,14 @@ import Attorneys from "../../components/Attorneys/Attorneys";
 import PracticeAreas from "../../components/Areas/Areas";
 import About from "../../components/About/About";
 import styles from "./Home.module.css";
-import Subscribe from "../../components/Subscribe/Subscribe"
+import Subscribe from "../../components/Subscribe/Subscribe";
 import NavBar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <NavBar className={styles.navbar} />
       <div className={styles.wrapper}>
         <section id="home">
           <Hero className={styles.hero} />

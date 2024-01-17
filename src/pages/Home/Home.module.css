@@ -4,3 +4,11 @@
   gap: 100px;
   background-color: var(--color-grey);
 }
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Ensure full width of the viewport */
+  background-color: #fff; /* Adjust background color as needed */
+  z-index: 1000; /* Adjust the z-index value as needed */
+}
+

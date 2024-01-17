@@ -37,6 +37,7 @@ export default function Contact() {
     e.preventDefault();
     if (user.name && user.email && user.subject && user.message)
       setUser({ ...user, submit: true });
+    else alert("Please Fill All Mandatory Fields");
   };
 
   return user.submit ? (

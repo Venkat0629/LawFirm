@@ -29,7 +29,7 @@
 .contentwrapper{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   text-align: right;
   text-wrap: wrap;
   width: 22vw;
