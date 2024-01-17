@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export default function Button({ children }) {
   const navigate = useNavigate();
   const handleButton = (e) => {
-    navigate("/");
+    navigate("/contact");
   };
   return (
     <button className={styles.button} onClick={handleButton}>

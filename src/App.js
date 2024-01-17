@@ -1,14 +1,6 @@
 import React from "react";
-import NavBar from "./components/Navbar/Navbar";
-import Home from "./pages/Home/Home";
-import Footer from "./components/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 export default function App() {
-  return (
-    <>
-      <NavBar />
-      <Home />
-      <Footer />
-    </>
-  );
+  return <Outlet />;
 }
