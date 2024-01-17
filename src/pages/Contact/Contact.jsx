@@ -9,17 +9,28 @@ import LanguageIcon from "@mui/icons-material/Language";
 
 export default function Contact() {
   const [user, setUser] = useState({ submit: false });
-  const handleEmailChange = (e) => {
-    setUser({ ...user, email: e.target.value });
-  };
-  const handleNameChange = (e) => {
-    setUser({ ...user, name: e.target.value });
-  };
-  const handleSubjectChange = (e) => {
-    setUser({ ...user, subject: e.target.value });
-  };
-  const handleMessageChange = (e) => {
-    setUser({ ...user, message: e.target.value });
+  const handleChange = (e) => {
+    switch (e.target.id) {
+      case "name": {
+        setUser({ ...user, name: e.target.value });
+        break;
+      }
+      case "email": {
+        setUser({ ...user, email: e.target.value });
+        break;
+      }
+      case "subject": {
+        setUser({ ...user, subject: e.target.value });
+        break;
+      }
+      case "message": {
+        setUser({ ...user, message: e.target.value });
+        break;
+      }
+      default: {
+        setUser({ ...user });
+      }
+    }
   };
 
   const handleSubmit = (e) => {
@@ -43,7 +54,7 @@ export default function Contact() {
             label="Name"
             variant="standard"
             value={user.name}
-            onChange={(e) => handleNameChange(e)}
+            onChange={handleChange}
             InputLabelProps={{
               style: { color: "grey" },
             }}
@@ -56,7 +67,7 @@ export default function Contact() {
             label="Email"
             variant="standard"
             value={user.email}
-            onChange={(e) => handleEmailChange(e)}
+            onChange={handleChange}
             InputLabelProps={{
               style: { color: "grey" },
             }}
@@ -69,7 +80,7 @@ export default function Contact() {
             label="Subject"
             variant="standard"
             value={user.subject}
-            onChange={(e) => handleSubjectChange(e)}
+            onChange={handleChange}
             InputLabelProps={{
               style: { color: "grey" },
             }}
@@ -84,7 +95,7 @@ export default function Contact() {
             variant="standard"
             multiline
             rows={4}
-            onChange={(e) => handleMessageChange(e)}
+            onChange={handleChange}
             InputLabelProps={{
               style: { color: "grey" },
             }}
